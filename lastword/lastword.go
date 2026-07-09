@@ -6,8 +6,10 @@ import (
 )
 
 func LastWord(s string) string {
+	// Split the string into words.
 	words := strings.Fields(s)
 	if len(words) > 0 {
+		// Return the last word plus a newline.
 		return words[len(words)-1] + "\n"
 	}
 	return "\n"
