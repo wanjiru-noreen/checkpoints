@@ -18,3 +18,6 @@ func main() {
 	fmt.Println(CountChar("   ", ' '))
 	fmt.Println(CountChar("The 7 deadly sins", '7'))
 }
+
+//rune = represents a unicode code point which is how GO can work with
+//characters beyond basic english like '你'
